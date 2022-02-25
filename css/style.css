@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: mukta,sans-serif;
+}
+header{
+    background-image: url(../images/WALL\ 2.jpg);
+    height: 100vh;
+    opacity:0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     color:blue;
+     flex-wrap: wrap;
+
+}
+nav.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin:0px 10px;
+
+}
+nav li a{
+    text-decoration: none;
+    color:blue;
+}
+nav li a:hover{
+    color:white;
+}
+header .content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+header .content button{
+ width: 150px;
+ height: 45px;
+ border-radius: 5px;
+ background-color: rgb(2, 2, 43); 
+ font-size: 1.25rem;  
+}
+footer{
+    background-color: rgb(197, 112, 78);
+    display: flex;
+    color: cornsilk;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header .content button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    
+}
+.middle h2{
+    font-size: 1.25em;
+    color: red;
+    flex-direction: column;
+}
+.middle .box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px blueviolet;
+
+}
+.head{
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+    font-size: 3rem;
+}
+.middle .video{
+    margin: 20px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+
+} 
+.blog{
+    display: flex;
+    flex-direction: column;
+    height:150px;
+    border-left: 5px solid solid purple ;
+    margin: 20px;
+    box-shadow: 0px 0px 10px purple;
+    padding:10px 20px;
+    justify-content: space-evenly;
+    background-color: violet;
+}
+.blog .title{
+    font-size: 2rem;
+    color: rgb(179, 5, 126);
+    text-decoration: underline;
+    text-transform:uppercase ;
+}
+.blog .date{
+    font-size: 1.25;
+    font-weight: 500;
+    color: rgb(1, 41, 1) ;
+}
+.blog .content{
+    border-top: 1px solid  rgb(107, 1, 36);
+    text-align: justify;
+}
+.contact{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 500px;
+
+}
+.contact .left img{
+    width: 100%;
+    height: 60vh;
+}
+
+  .contact .left{
+    flex-grow: 1;
+}
+.contact .right{
+    flex-grow: 2;
+}
+.contact .right .frm{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact .right input{
+    width:100%;
+    height: 35px;
+    margin: 10px 0px;
+}
+.contact .right textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+}
+.contact .right button{
+    width: 100%;
+    height: 35px;
+    background-color: aquamarine;
+    color: black;
+}
+
+
+
+
+footer{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}   
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+footer ul a{
+    text-decoration: none;
+    color: rgb(228, 219, 184);
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+
+
